@@ -14,6 +14,7 @@
 		73E7C69B28AFBF61002CC6C9 /* SwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E7C69A28AFBF61002CC6C9 /* SwiftUIAppTests.swift */; };
 		73E7C6A528AFBF61002CC6C9 /* SwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E7C6A428AFBF61002CC6C9 /* SwiftUIAppUITests.swift */; };
 		73E7C6A728AFBF61002CC6C9 /* SwiftUIAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E7C6A628AFBF61002CC6C9 /* SwiftUIAppUITestsLaunchTests.swift */; };
+		73E7C6B428AFC2AF002CC6C9 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E7C6B328AFC2AE002CC6C9 /* like.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		73E7C6A028AFBF61002CC6C9 /* SwiftUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E7C6A428AFBF61002CC6C9 /* SwiftUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppUITests.swift; sourceTree = "<group>"; };
 		73E7C6A628AFBF61002CC6C9 /* SwiftUIAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73E7C6B328AFC2AE002CC6C9 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				73E7C68928AFBF5A002CC6C9 /* SwiftUIAppApp.swift */,
 				73E7C68B28AFBF5A002CC6C9 /* ContentView.swift */,
 				73E7C68D28AFBF61002CC6C9 /* Assets.xcassets */,
+				73E7C6B328AFC2AE002CC6C9 /* like.png */,
 				73E7C68F28AFBF61002CC6C9 /* Preview Content */,
 			);
 			path = SwiftUIApp;
@@ -233,6 +236,7 @@
 			files = (
 				73E7C69128AFBF61002CC6C9 /* Preview Assets.xcassets in Resources */,
 				73E7C68E28AFBF61002CC6C9 /* Assets.xcassets in Resources */,
+				73E7C6B428AFC2AF002CC6C9 /* like.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

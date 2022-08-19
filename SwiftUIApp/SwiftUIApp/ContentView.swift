@@ -13,11 +13,22 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            Spacer()
             Text(text)
-                .padding()
+            Spacer()
             Button("ボタン") {
                 text = "こんばんわ"
             }
+            Button(
+                action: {
+                    text = "ボタン2が押された"
+                },
+                label: {
+                    Text("ボタン2")
+                }
+            )
+            Spacer()
+            Image("like")
         }
     }
 }
