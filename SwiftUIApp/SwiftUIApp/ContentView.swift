@@ -8,9 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    // @Stateはアプリの画面の表示に使いたい情報を書くためのキーワード
+    @State var text = "こんにちは"
+    
     var body: some View {
-        Text("Hello")
-            .padding()
+        VStack {
+            Text(text)
+                .padding()
+            Button("ボタン") {
+                text = "こんばんわ"
+            }
+        }
     }
 }
 
